@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 10%;
+    height: 20%;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.link {
+    font-size: 25px;
+    list-style: none;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-family: 'Inconsolata', monospace;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#hobby {
+    background-color: orange;
+}
+
+#work {
+    background-color: red;
+}
+
+#inspiration {
+
+    background-color: cyan;
+}
+
+#contact {
+    background-color: lime;
+}
